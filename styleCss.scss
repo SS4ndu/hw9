@@ -66,6 +66,7 @@
     @include phone {
         @include titluSmall();
     }
+    font-family: 'Mooli', sans-serif;
 }
 
 .paragraf {
@@ -80,4 +81,5 @@
     @include phone {
         @include paragrafSmall();
     }
+    font-family: 'Mooli', sans-serif;
 }
