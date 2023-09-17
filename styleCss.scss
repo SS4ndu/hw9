@@ -54,42 +54,6 @@
     font-weight: 200;
 }
 
-.class {
-    @include desktop {
-        @include titluLarge();
-    }
-}
-
-.class1 {
-    @include desktop {
-        @include paragrafLarge();
-    }
-}
-
-.class2 {
-    @include tablet {
-        @include titluMedium();
-    }
-}
-
-.class3 {
-    @include tablet {
-        @include paragrafMedium();
-    }
-}
-
-.class4 {
-    @include phone() {
-        @include titluSmall();
-    }
-}
-
-.class5 {
-    @include phone() {
-        @include paragrafSmall();
-    }
-}
-
 .titlu {
     @include desktop {
         @include titluLarge();
@@ -102,6 +66,7 @@
     @include phone {
         @include titluSmall();
     }
+    font-family: 'Mooli', sans-serif;
 }
 
 .paragraf {
@@ -116,4 +81,5 @@
     @include phone {
         @include paragrafSmall();
     }
+    font-family: 'Mooli', sans-serif;
 }

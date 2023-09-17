@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Mooli&display=swap");
 .div1 {
   height: 50px;
   width: 50px;
   color: red;
   border: 1px solid black;
+  font-size: 50px;
+  font-family: "Fuggles", cursive;
 }
 
 .div2 {
@@ -10,4 +13,6 @@
   width: 100px;
   color: green;
   border: 1px solid black;
+  font-size: 50px;
+  font-family: "Fuggles", cursive;
 }/*# sourceMappingURL=styleScss.css.map */

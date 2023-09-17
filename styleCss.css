@@ -1,51 +1,6 @@
-@media (max-width: 1024px) {
-  .class {
-    font-size: 35px;
-    line-height: 20px;
-    font-weight: 800;
-  }
+.titlu {
+  font-family: "Mooli", sans-serif;
 }
-
-@media (max-width: 1024px) {
-  .class1 {
-    font-size: 20px;
-    line-height: 15px;
-    font-weight: 600;
-  }
-}
-
-@media (max-width: 780px) {
-  .class2 {
-    font-size: 25px;
-    line-height: 15px;
-    font-weight: 500;
-  }
-}
-
-@media (max-width: 780px) {
-  .class3 {
-    font-size: 15px;
-    line-height: 10px;
-    font-weight: 400;
-  }
-}
-
-@media (max-width: 400px) {
-  .class4 {
-    font-size: 15px;
-    line-height: 10px;
-    font-weight: 300;
-  }
-}
-
-@media (max-width: 400px) {
-  .class5 {
-    font-size: 10px;
-    line-height: 5px;
-    font-weight: 200;
-  }
-}
-
 @media (max-width: 1024px) {
   .titlu {
     font-size: 35px;
@@ -68,6 +23,9 @@
   }
 }
 
+.paragraf {
+  font-family: "Mooli", sans-serif;
+}
 @media (max-width: 1024px) {
   .paragraf {
     font-size: 20px;

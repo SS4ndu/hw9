@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Mooli&display=swap');
+
 @mixin div1 ($color: red, $h: 50px, $w: 50px) {
     height: $h;
     width: $w;
@@ -7,9 +9,13 @@
 .div1 {
     @include div1;
     border: 1px solid black;
+    font-size: 50px;
+    font-family: 'Fuggles', cursive;
 }
 
 .div2 {
     @include div1 (green, 100px, 100px);
     border: 1px solid black;
+    font-size: 50px;
+    font-family: 'Fuggles', cursive;
 } 
