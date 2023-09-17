@@ -1,0 +1,119 @@
+@mixin desktop {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 780px) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media (max-width: 400px) {
+        @content;
+    }
+}
+
+
+@mixin titluLarge {
+    font-size: 35px;
+    line-height: 20px;
+    font-weight: 800;
+}
+
+@mixin titluMedium {
+    font-size: 25px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+@mixin titluSmall {
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 300;
+}
+
+
+@mixin paragrafLarge {
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 600;
+}
+
+@mixin paragrafMedium {
+    font-size: 15px;
+    line-height: 10px;
+    font-weight: 400;
+}
+
+@mixin paragrafSmall {
+    font-size: 10px;
+    line-height: 5px;
+    font-weight: 200;
+}
+
+.class {
+    @include desktop {
+        @include titluLarge();
+    }
+}
+
+.class1 {
+    @include desktop {
+        @include paragrafLarge();
+    }
+}
+
+.class2 {
+    @include tablet {
+        @include titluMedium();
+    }
+}
+
+.class3 {
+    @include tablet {
+        @include paragrafMedium();
+    }
+}
+
+.class4 {
+    @include phone() {
+        @include titluSmall();
+    }
+}
+
+.class5 {
+    @include phone() {
+        @include paragrafSmall();
+    }
+}
+
+.titlu {
+    @include desktop {
+        @include titluLarge();
+    }
+
+    @include tablet {
+        @include titluMedium();
+    }
+
+    @include phone {
+        @include titluSmall();
+    }
+}
+
+.paragraf {
+    @include desktop {
+        @include paragrafLarge();
+    }
+
+    @include tablet {
+        @include paragrafMedium();
+    }
+
+    @include phone {
+        @include paragrafSmall();
+    }
+}

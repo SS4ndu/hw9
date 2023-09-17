@@ -1,0 +1,15 @@
+@mixin div1 ($color: red, $h: 50px, $w: 50px) {
+    height: $h;
+    width: $w;
+    color: $color;
+}
+
+.div1 {
+    @include div1;
+    border: 1px solid black;
+}
+
+.div2 {
+    @include div1 (green, 100px, 100px);
+    border: 1px solid black;
+} 
